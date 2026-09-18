@@ -1,0 +1,35 @@
+body {
+    font-family: 'Domine', serif;
+}
+
+/* Library Book Gallery Styles */
+.book-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 20px;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+.book-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.book-card img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 12px;
+}
+.book-card h4 {
+    margin: 0 0 4px 0 !important;
+    font-size: 0.95rem;
+    line-height: 1.2;
+}
+.book-card p {
+    margin: 0 !important;
+    font-size: 0.8rem;
+    color: var(--secondary);
+}

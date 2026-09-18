@@ -1,0 +1,59 @@
+baseURL = 'https://yourwebsite.com/'
+languageCode = 'en-us'
+title = "Amit's Log"
+theme = "PaperMod"
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params.homeInfoParams]
+  Title = "👋 Amit's Log"
+  Content = "Hi, this is Amit. Just documenting things as they happen."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/am7k"
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/am7k"
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/xmtngr"
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://youtube.com/@xmtngr"
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://instagram.com/xmtngrr"
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+[[menu.main]]
+  identifier = "library"
+  name = "Library"
+  url = "/library/"
+  weight = 20
+[[menu.main]]
+  identifier = "archive"
+  name = "Archive"
+  url = "/archives/"
+  weight = 30
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 40
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 50

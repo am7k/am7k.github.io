@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test on Amit&#39;s Log</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on Amit&#39;s Log</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Sep 2026 01:15:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing Tags and Hugo</title>
+      <link>http://localhost:1313/posts/test-post/</link>
+      <pubDate>Sat, 19 Sep 2026 01:15:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/test-post/</guid>
+      <description>&lt;p&gt;Welcome to my first official test post! 🚀&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m testing out the tagging system in the PaperMod theme. You should see the tags listed above or below this content.&lt;/p&gt;
+&lt;p&gt;If you click on one of the tags (like &lt;strong&gt;hugo&lt;/strong&gt; or &lt;strong&gt;test&lt;/strong&gt;), it will automatically take you to a dynamically generated page listing every post that shares that specific tag!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
