@@ -10,8 +10,8 @@ theme = "PaperMod"
   unsafe = true
 
 [params.homeInfoParams]
-  Title = "👋 Amit's Log"
-  Content = "Hi, this is Amit. Just documenting things as they happen."
+  Title = "Amit's Log"
+  Content = "Documenting my code, system architecture, and the things I break along the way. Pure signal, zero noise. Take what you need."
 
 [[params.socialIcons]]
   name = "github"
@@ -35,7 +35,7 @@ theme = "PaperMod"
 [[menu.main]]
   identifier = "posts"
   name = "Posts"
-  url = "/posts/"
+  url = "/"
   weight = 10
 [[menu.main]]
   identifier = "library"
@@ -57,3 +57,4 @@ theme = "PaperMod"
   name = "Search"
   url = "/search/"
   weight = 50
+buildFuture = true
