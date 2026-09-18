@@ -6,7 +6,15 @@
     <description>Recent content on Amit&#39;s Log</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 19 Sep 2026 02:29:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hi</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Sat, 19 Sep 2026 02:29:00 +0530</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>&lt;p&gt;Just saying hi at 2:29 AM while building this.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Library</title>
       <link>http://localhost:1313/library/</link>

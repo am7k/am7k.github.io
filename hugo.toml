@@ -2,7 +2,6 @@ baseURL = 'https://am7k.github.io/'
 languageCode = 'en-us'
 title = "Amit's Log"
 theme = "PaperMod"
-buildFuture = true
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
@@ -10,9 +9,12 @@ buildFuture = true
 [markup.goldmark.renderer]
   unsafe = true
 
+[params]
+  mainSections = ["posts"]
+
 [params.homeInfoParams]
-  Title = "Amit's Log"
-  Content = "Documenting my code, system architecture, and the things I break along the way. Pure signal, zero noise. Take what you need."
+  Title = "👋 Amit's Log"
+  Content = "I'm Amit. Writing down the wins, fails, and everything in between."
 
 [[params.socialIcons]]
   name = "github"

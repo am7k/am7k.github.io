@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hugo on Amit&#39;s Log</title>
-    <link>http://localhost:1313/tags/hugo/</link>
-    <description>Recent content in Hugo on Amit&#39;s Log</description>
+    <title>System Design on Amit&#39;s Log</title>
+    <link>http://localhost:1313/tags/system-design/</link>
+    <description>Recent content in System Design on Amit&#39;s Log</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Sep 2026 02:26:54 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/system-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting up the Architecture</title>
       <link>http://localhost:1313/posts/first-post/</link>
